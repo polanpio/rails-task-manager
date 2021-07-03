@@ -1,0 +1,9 @@
+<%# <form action="/tasks" method="post"> %>
+  <%# <label for="title"></label>
+  <input type="text" name="task[title]">
+  <label for="details"></label>
+  <input type="text" name="task[details]">
+  <input type="submit"> %>
+<%# </form> %>
+
+<%= render "form", task: @task %>

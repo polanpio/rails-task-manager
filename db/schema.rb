@@ -16,6 +16,7 @@ ActiveRecord::Schema.define(version: 2021_07_03_004001) do
     t.string "title"
     t.text "details"
     t.boolean "completed"
+    t.boolean "false"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
